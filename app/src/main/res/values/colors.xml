@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#AFAFAF</color>
+    <color name="uncrop_color_toolbar">#FF03DAC5</color>
+    <color name="uncrop_color_statusbar">#FF3700B3</color>
+    <color name="ucrop_color_widget_active">#FF03DAC5</color>
 </resources>
