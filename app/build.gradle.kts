@@ -38,9 +38,6 @@ android {
         jvmTarget = "1.8"
     }
 
-    buildFeatures{
-        viewBinding = true
-    }
     dataBinding {
         enable = true
     }
@@ -64,7 +61,6 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("io.reactivex.rxjava2:rxjava:2.1.0")
     implementation("io.reactivex.rxjava2:rxandroid:2.0.1")
-    implementation("com.github.bumptech.glide:glide:4.14.2")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
-
+    implementation("com.github.bumptech.glide:glide:4.11.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
 }
